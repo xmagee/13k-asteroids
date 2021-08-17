@@ -1,0 +1,21 @@
+{
+  "name": "canvas-test",
+  "main": "build.js",
+  "scripts": {
+    "dev": "npx browser-sync start --server 'src' --files 'src'", 
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmagee/canvas-test.git"
+  },
+  "author": "xmagee",
+  "bugs": {
+    "url": "https://github.com/xmagee/canvas-test/issues"
+  },
+  "homepage": "https://github.com/xmagee/canvas-test#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5", 
+    "minify": "^7.0.2"
+  }
+}
